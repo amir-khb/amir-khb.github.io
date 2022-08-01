@@ -35,7 +35,7 @@ submit1.addEventListener('click', function(event) {
 answer2.addEventListener('input', function(event) {
   log(this.value, true);
   
-  if(this.value == target2) {
+  if(this.value == target2 & !submit1.disabled) {
     submit2.disabled = false;
   }
   else {
