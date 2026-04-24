@@ -638,7 +638,10 @@
     .hero-ctas { flex-direction: column; }
     .btn-primary, .btn-outline { text-align: center; }
     .stats-grid { grid-template-columns: 1fr 1fr; gap: 1rem; }
-    .pub-card { grid-template-columns: auto auto 1fr; }
+    .pub-card { grid-template-columns: 1fr; }
+    .pub-card .pub-year { text-align: left; font-size: 1.3rem; }
+    .pub-card > * { }
+    .pub-card { display: flex; flex-direction: column; gap: 0.6rem; }
   }
 </style>
 </head>
